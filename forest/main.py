@@ -1,23 +1,8 @@
 import sys
 
 sys.stdin = open('./input.txt','r')
-#
-# i = int(input())
-#
-# days =  list(map(int, input().split()))
-#
-# counter = 0
-#
-# for day in days:
-#     if day < 0:
-#         counter+= 1
-#
-# print(counter)
 
 p, t = map(int, input().split())
-
-
-# print(p, t)
 
 dic = {}
 
