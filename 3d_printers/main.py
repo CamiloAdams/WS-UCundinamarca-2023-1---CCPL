@@ -1,19 +1,19 @@
-# import sys
-#
-# sys.stdin = open('./input.txt','r')
+import sys
+
+sys.stdin = open('./input.txt','r')
 
 n = int(input())
 
-p = 1
-d = 0
+printers = 1
+days = 0
 
 if n == 1:
     print(1)
     exit()
 
-while p*2 < n:
-    p*=2
-    d+=1
+while printers*2 < n:
+    printers*=2
+    days+=1
 
-d+=2
-print(d)
+days+=2
+print(days)
